@@ -1,0 +1,17 @@
+name: LobbyPlugin
+version: 1.0.0
+main: com.lobbyplugin.LobbyPlugin
+api-version: 1.21
+description: Lobby plugin with world selector GUI
+depend: [Multiverse-Core]
+
+commands:
+  hub:
+    description: Open server selector
+    usage: /hub
+  lobby:
+    description: Open server selector
+    usage: /lobby
+  server:
+    description: Open server selector
+    usage: /server
